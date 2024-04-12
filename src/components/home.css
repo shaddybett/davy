@@ -1,18 +1,6 @@
-.home{
-    /* background-color: blue; */
-}
 .body{
-    padding: 20px;
-    background-color: rgb(53, 53, 168);
-    height: 100vh;
+    background-color: rgb(197, 214, 230);
 }
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 100%; /* Adjust to full width on smaller screens */
-    }
-}
-.container {
-    max-width: 80%; /* Adjust this value as needed */
-    margin: 0 auto; /* Center the container horizontally */
-    text-align: center; /* Center the content inside the container */
+.card{
+    /* width: 1000px; */
 }

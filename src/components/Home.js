@@ -1,26 +1,41 @@
 import React from "react";
-import { Button } from "flowbite-react";
 import logo from "../assets/images/postgresql.svg";
 import fuel from "../assets/images/pxfuel (3).jpg";
+// import  from '../assets/images/postgresql.svg'
 import "./home.css";
 
 function Home() {
   return (
-    <div className="body">
-      <div className="flex justify-center items-center flex-col">
-       
-        <img src={logo} alt="logo" className="w-10 mb-2" />
-      
-        <img src={fuel} alt="pxl" className="w-300 h-80" />
-
-        <p className=" max-w-2xl">
-          heloo This is a cool web site to address all issues (including
-          breaking changes), run: hhjkdujdsnjjuuh
-        </p>
-        
+    <div className=" body min-h-screen ">
+      <div className=" grid justify-center items-center ">
+        <img src={logo} className="max-w-20 " />
       </div>
-      <div className=" ">
-
+      <div className="mt-5 max-w-sm mx-auto">
+        <img src={fuel} className="max-w-full" />
+        <p className="mt-5 ml-5" style={{ fontFamily: "Roboto, sans-serif" }}>
+          Bohemian Summer is a festival style retreat in regional Victoria.
+          <br />
+          An intimate style festival of approx. 800 to 1000 attendees, Bohemian
+          Summer offers women the ability to connect without fighting for space.
+          <br />
+          All participants must offer a safe and welcoming space that gives
+          women the freedom to let their guards down and be unashamedly
+          themselves.
+          <br />
+          Applications are opening soon for 2025. <br /> There are many ways to
+          be involved including; WORKSHOPS / PRESENTATIONS <br /> STALLHOLDERS
+          FOOD VENDORS <br /> HEALING HAVEN <br />
+          COMMUNITY ART <br />
+          COMMUNITY GROUPS / LIVED EXPERIENCE SPACE <br />
+          VOLUNTEERS <br /> Want to be involved in other ways? <br />
+          We would love to hear from you! <br /> Please
+          <a href="shadybett540@gmail.com">Send me an email</a>
+          <br />
+          *** Please know that ALL staff must be female or identify as female as
+          Bohemian Summer Festival is a women only event. <br /> *** There will
+          no refunds/transfers for change of mind therefore please consider this
+          before applying.
+        </p>
       </div>
     </div>
   );
