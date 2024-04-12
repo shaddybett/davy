@@ -3,6 +3,8 @@
 }
 .body{
     padding: 20px;
+    background-color: rgb(53, 53, 168);
+    height: 100vh;
 }
 @media screen and (max-width: 768px) {
     .container {

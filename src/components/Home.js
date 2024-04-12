@@ -12,13 +12,15 @@ function Home() {
         <img src={logo} alt="logo" className="w-10 mb-2" />
       
         <img src={fuel} alt="pxl" className="w-300 h-80" />
-        
-      </div>
-      <div className=" max-w-50% flex justify-center items-center flex-col">
-        <p>
-          heloo This is a cool web site to address all issues <br/> (including
+
+        <p className=" max-w-2xl">
+          heloo This is a cool web site to address all issues (including
           breaking changes), run: hhjkdujdsnjjuuh
         </p>
+        
+      </div>
+      <div className=" ">
+
       </div>
     </div>
   );
