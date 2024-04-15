@@ -1,5 +1,9 @@
 import React from "react";
 import sam from "../assets/images/sam.jpg";
+import img1 from "../assets/images/img1.jpeg";
+import img2 from "../assets/images/img2.jpeg";
+import img3 from "../assets/images/img3.jpeg";
+import img4 from "../assets/images/img4.jpeg";
 import { Card, Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 function Events() {
@@ -16,7 +20,7 @@ function Events() {
         <Card
           className="max-w-sm"
           imgAlt="Meaningful alt text for an image that is not purely decorative"
-          imgSrc={sam}
+          imgSrc={img1}
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Noteworthy technology acquisitions 2021
