@@ -22,9 +22,6 @@ function Home() {
                 <Link to="/events">
                   <Dropdown.Item>Past Events</Dropdown.Item>
                 </Link>
-                <Link to="/next">
-                  <Dropdown.Item>Upcoming Events</Dropdown.Item>
-                </Link>
               </Dropdown>
             </div>
           </div>
@@ -33,21 +30,21 @@ function Home() {
         <div className="mt-5 max-w-sm mx-auto">
           <img src={fuel} className="max-w-full rounded-md" />
           <p className="mt-5 ml-5" style={{ fontFamily: "Roboto, sans-serif" }}>
-            Bohemian Summer is a festival style retreat in regional Victoria.
+            Flo event and marketing is a festival style retreat in regional Victoria.
             <br />
             <br />
             An intimate style festival of approx. 800 to 1000 attendees,
-            Bohemian Summer offers women the ability to connect without fighting
+            flo event and marketing ltd offers entrepreneurs the ability to connect without fighting
             for space.
             <br />
             <br />
             All participants must offer a safe and welcoming space that gives
-            women the freedom to let their guards down and be unashamedly
+            entrepreneurs the freedom to let their guards down and be unashamedly
             themselves.
             <br />
             <br />
             {/* Apply margin-bottom to create space between paragraphs */}
-            Applications are opening soon for 2025. <br /> There are many ways
+            Applications are opening soon for 2024. <br /> There are many ways
             to be involved including; <br />
             <br /> 1.WORKSHOPS / PRESENTATIONS <br /> 2.STALLHOLDERS
             <br />
@@ -55,7 +52,7 @@ function Home() {
             4.COMMUNITY ART <br />
             5.COMMUNITY GROUPS / LIVED EXPERIENCE SPACE <br />
             6.VOLUNTEERS <br /> <br /> Want to be involved in other ways? We
-            would love to hear from you! <br /> <br /> Email contact:
+            would love to hear from you! <br /> <br /> Please email
             <a
               href="mailto:floeventmarketing@gmail.com"
               style={{
@@ -69,8 +66,7 @@ function Home() {
             </a>
             <br />
             <br />
-            *** Please know that ALL staff must be female or identify as female
-            as Bohemian Summer Festival is a women only event. <br /> <br />
+            *** Please know that ALL stall holders must have insurance or buy insurance from us at $10. <br /> <br />
             *** There will be no refunds/transfers for change of mind therefore
             please consider this before applying.
           </p>
