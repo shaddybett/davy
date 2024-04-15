@@ -1,8 +1,8 @@
 .body{
-    
+    background-color: rgb(197, 214, 230);
     /* margin-left: 450px; */
 }
 .cards{
-    margin-left: 500px;
-    background-color: rgb(197, 214, 230);
+    background-color: aliceblue;
+    
 }

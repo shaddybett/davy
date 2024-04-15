@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 // const navigate = useNavigate()
 function Home() {
   return (
-    <div className="body ">
-      <Card className="cards min-h-screen max-w-sm">
+    <div className="cards ">
+      <Card className="body min-h-screen max-w-sm">
         <div className="grid justify-center items-center">
           <div className="flex items-center">
             <img src={logo} className="max-w-20 " />
@@ -31,7 +31,7 @@ function Home() {
         </div>
 
         <div className="mt-5 max-w-sm mx-auto">
-          <img src={fuel} className="max-w-full" />
+          <img src={fuel} className="max-w-full rounded-md" />
           <p className="mt-5 ml-5" style={{ fontFamily: "Roboto, sans-serif" }}>
             Bohemian Summer is a festival style retreat in regional Victoria.
             <br />
