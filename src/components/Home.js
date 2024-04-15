@@ -2,23 +2,28 @@ import React from "react";
 import logo from "../assets/images/postgresql.svg";
 import fuel from "../assets/images/pxfuel (3).jpg";
 import "./home.css";
-import { Dropdown } from "flowbite-react";
+import { Dropdown, Card } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 // const navigate = useNavigate()
 function Home() {
-
   return (
-    <div className="body min-h-screen">
+    <div className="body min-h-screen ">
       <div className="grid justify-center items-center">
         <div className="flex items-center">
           <img src={logo} className="max-w-20 " />
           <div className="ml-20">
-          <Dropdown  dismissOnClick={false} >
-              <Dropdown.Item>Home</Dropdown.Item>
-              <Link to='/events'><Dropdown.Item>Past Events</Dropdown.Item></Link>
-              <Link to='/next'><Dropdown.Item>Upcoming Events</Dropdown.Item></Link>
-              
+            <Dropdown dismissOnClick={false}>
+              <Link to="/">
+                {" "}
+                <Dropdown.Item>Home</Dropdown.Item>
+              </Link>
+              <Link to="/events">
+                <Dropdown.Item>Past Events</Dropdown.Item>
+              </Link>
+              <Link to="/next">
+                <Dropdown.Item>Upcoming Events</Dropdown.Item>
+              </Link>
             </Dropdown>
           </div>
         </div>
@@ -48,9 +53,9 @@ function Home() {
           4.COMMUNITY ART <br />
           5.COMMUNITY GROUPS / LIVED EXPERIENCE SPACE <br />
           6.VOLUNTEERS <br /> <br /> Want to be involved in other ways? We would
-          love to hear from you! <br /> <br /> Please
+          love to hear from you! <br /> <br /> Email contact:
           <a
-            href="mailto:shadybett540@gmail.com"
+            href="mailto:floeventmarketing@gmail.com"
             style={{
               color: "blue",
               fontWeight: "medium",
@@ -58,7 +63,7 @@ function Home() {
             }}
           >
             {" "}
-            click to send us an email
+            floeventmarketing@gmail.com
           </a>
           <br />
           <br />
@@ -67,8 +72,6 @@ function Home() {
           *** There will be no refunds/transfers for change of mind therefore
           please consider this before applying.
         </p>
-
-  
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ function Next() {
   return (
     <div>
       <Link to="/">
-        <Button gradientDuoTone="purpleToBlue" className="mb-3 mt-2">
+        <Button gradientDuoTone="purpleToBlue" className="mb-3 mt-2 ml-2">
           {" "}
           Back
         </Button>
