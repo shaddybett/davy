@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // const navigate = useNavigate()
 function Home() {
   return (
-    <Card className="body min-h-screen max-h-sm">
+    <Card className="body min-h-screen max-w-sm">
       <div className="grid justify-center items-center">
         <div className="flex items-center">
           <img src={logo} className="max-w-20 " />
