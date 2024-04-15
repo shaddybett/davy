@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // const navigate = useNavigate()
 function Home() {
   return (
-    <div className="body min-h-screen ">
+    <Card className="body min-h-screen max-h-sm">
       <div className="grid justify-center items-center">
         <div className="flex items-center">
           <img src={logo} className="max-w-20 " />
@@ -73,7 +73,7 @@ function Home() {
           please consider this before applying.
         </p>
       </div>
-    </div>
+    </Card>
   );
 }
 
